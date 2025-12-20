@@ -18,3 +18,21 @@
 2025-12-20T17:54:50.840396Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
 2025-12-20T17:54:50.942057Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".gitignore")}
 2025-12-20T17:54:50.942072Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-20T17:57:24.747201Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("app/page.tsx"), AnchoredSystemPathBuf("app/layout.tsx")}
+2025-12-20T17:57:24.747257Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-20T17:57:24.845627Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("tailwind.config.ts"), AnchoredSystemPathBuf("next.config.js"), AnchoredSystemPathBuf("app/globals.css")}
+2025-12-20T17:57:24.845642Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-20T17:57:24.945219Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("postcss.config.")}
+2025-12-20T17:57:24.945239Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-20T18:23:34.989872Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("app/page.tsx")}
+2025-12-20T18:23:34.990096Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-20T18:24:24.593922Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("app/layout.tsx")}
+2025-12-20T18:24:24.594171Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-20T18:25:09.493222Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("app/globals.")}
+2025-12-20T18:25:09.493239Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-20T18:25:44.192877Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("next.config.js")}
+2025-12-20T18:25:44.192892Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-20T18:26:20.495105Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("tailwind.config.ts")}
+2025-12-20T18:26:20.495124Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-12-20T18:27:00.795948Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("postcss.config.js")}
+2025-12-20T18:27:00.795965Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
