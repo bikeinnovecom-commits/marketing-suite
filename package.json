@@ -1,5 +1,6 @@
 {
   "name": "marketing-suite",
+<<<<<<< HEAD
   "version": "0.1.0",
   "private":  true,
   "description": "Complete SEO & Digital Marketing Platform",
@@ -29,6 +30,32 @@
   },
   "engines": {
     "node": ">=18.0.0",
+=======
+  "version": "1.0.0",
+  "private": true,
+  "description": "Complete SEO & Digital Marketing Platform - Semrush-inspired all-in-one toolkit",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "services/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "clean": "turbo run clean && rm -rf node_modules",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\""
+  },
+  "devDependencies": {
+    "turbo": "^1.11.2",
+    "prettier": "^3.1.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18. 0.0",
+>>>>>>> b75d802 (feat: Add Web App (Next.js) and API Gateway with complete structure)
     "npm": ">=9.0.0"
   }
 }
