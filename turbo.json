@@ -1,16 +1,24 @@
 {
   "$schema": "https://turbo.build/schema.json",
+<<<<<<< HEAD
   "globalDependencies": ["**/. env.*local"],
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
       "outputs":  [". next/**", "dist/**", "build/**"]
+=======
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": [".next/**", "dist/**", "build/**"]
+>>>>>>> 45a79f4 (fix:  Add complete Next.js app structure for Vercel)
     },
     "dev": {
       "cache": false,
       "persistent": true
     },
     "lint": {
+<<<<<<< HEAD
       "dependsOn": ["^lint"]
     },
     "test":  {
@@ -21,6 +29,14 @@
       "cache": false
     },
     "db:seed": {
+=======
+      "outputs": []
+    },
+    "test":  {
+      "outputs": []
+    },
+    "clean": {
+>>>>>>> 45a79f4 (fix:  Add complete Next.js app structure for Vercel)
       "cache": false
     }
   }
